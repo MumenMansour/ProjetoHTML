@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
-font-family: 'Montserrat', sans-serif;
 :root{
     --texto1: #464646;
     --texto2: #a3a3a3;
@@ -11,6 +10,12 @@ font-family: 'Montserrat', sans-serif;
     --corCinza: #ececec;
     --corCinzaDois: #f6f6f6; 
 }
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+button{
+    cursor: pointer;
+}
 main{
     display: flex;
     flex-direction: column;
@@ -19,4 +24,8 @@ main{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+body{
+    background: var(--background);
+    
 }
