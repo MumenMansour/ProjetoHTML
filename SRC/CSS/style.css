@@ -1,3 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
-
 font-family: 'Montserrat', sans-serif;
+:root{
+    --texto1: #464646;
+    --texto2: #a3a3a3;
+    --background: linear-gradient(170deg, #f8f4ff 0%, #eff0f4 100%);
+    --fundoCard: #fff;
+    --corPrimario: #4894ff;
+    --corSecundaria: #ffb050;
+    --corBracnca: #fff;
+    --corCinza: #ececec;
+    --corCinzaDois: #f6f6f6; 
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
